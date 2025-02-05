@@ -52,7 +52,7 @@ scene.add(stars)
 // scene.background = new THREE.Color("#00")camera
 
 const fontLOader =  new FontLoader(loadingManager);
-fontLOader.load("./Saira Stencil One_Regular.json", 
+fontLOader.load("./assets/Saira Stencil One_Regular.json", 
   (font)=>{
   const textGeometry = new TextGeometry("THE  UNIVERSE",{
     font: font,
