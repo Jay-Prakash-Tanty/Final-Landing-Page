@@ -26,6 +26,8 @@ loadingManager.onLoad = function(url, item, total){
 
 var text= null;
 
+console.log("abraka dabra")
+
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
