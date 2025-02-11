@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Orbitron"
 }
 
 .Restricted{
@@ -42,7 +43,12 @@ body,.webgl
     /* border:2px red solid; font-size */
     height:100vh;
     width:100%;
+        font-family:"Orbitron"
 
+
+}
+.Title{
+    font-family:"Orbitron"
 
 }
 .webgl2
@@ -59,7 +65,7 @@ body,.webgl
     width:100%;
 }
 h1{
-    font-size: clamp(45px ,3.7rem ,140px);
+    font-size: clamp(45px ,2.7rem ,140px);
 
 }
 /* scroll Animation */
