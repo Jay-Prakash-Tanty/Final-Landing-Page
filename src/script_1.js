@@ -14,7 +14,7 @@ const loader_body = document.querySelector(".loader_body")
 const loadingManager = new THREE.LoadingManager();
 
 loadingManager.onStart = function(url, item, total){
-  console.log("loading is started")
+  console.log("loading is started not")
   loader_body.style.scale = 1
   // loader_body.style.display = "block"
 }
